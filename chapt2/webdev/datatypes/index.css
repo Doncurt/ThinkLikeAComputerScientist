@@ -1,0 +1,16 @@
+/*makes sure that page ALWAYS fits into the screen itself*/
+html,body{
+  padding:0;
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+}
+/*this will give the header a backgroud colrr of blueviolet, give the text a color of white gives it a padding of 20px so they text has space to breathe*/
+header {
+    background-color: blueviolet;
+    flex: 0 0 40px;
+    color: white;
+    text-align: center;
+     justify-content: center;
+    padding: 20px;
+}
